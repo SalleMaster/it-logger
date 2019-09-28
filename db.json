@@ -5,21 +5,21 @@
       "message": "Changed network card in server 007 ",
       "attention": false,
       "tech": "John Doe",
-      "date": "2019-09-27T21:51:06.292Z"
+      "date": "2019-09-28T10:36:56.691Z"
     },
     {
       "id": 2,
-      "message": "Updated log",
-      "attention": "false",
+      "message": "Fixed hard drive on workstation 002",
+      "attention": false,
       "tech": "John Doe",
-      "date": "2019-09-27T21:53:27.700Z"
+      "date": "2019-09-28T10:37:44.347Z"
     },
     {
-      "message": "1122 wireless down",
-      "attention": "false",
-      "tech": "Sam Smith",
-      "date": "2019-09-27T21:11:05.433Z",
-      "id": 3
+      "id": 3,
+      "message": "Swapped the CPU from server 005",
+      "attention": false,
+      "tech": "Sara Wilson",
+      "date": "2019-09-28T10:52:35.057Z"
     }
   ],
   "techs": [

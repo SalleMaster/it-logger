@@ -13,10 +13,10 @@ const LogItem = ({ log, deleteLog, setCurrent }) => {
   };
 
   return (
-    <li className='collection-item'>
+    <li className="collection-item">
       <div>
         <a
-          href='#edit-log-modal'
+          href="#edit-log-modal"
           className={`modal-trigger ${
             log.attention ? 'red-text' : 'blue-text'
           }`}
@@ -25,13 +25,13 @@ const LogItem = ({ log, deleteLog, setCurrent }) => {
           {log.message}
         </a>
         <br />
-        <span className='grey-text'>
-          <span className='black-text'>ID #{log.id}</span> last updated by{' '}
-          <span className='black-text'>{log.tech}</span> on{' '}
-          <Moment format='YYYY/MM/DD, h:mm:ss a'>{log.date}</Moment>
+        <span className="grey-text">
+          <span className="black-text">ID #{log.id}</span> last updated by{' '}
+          <span className="black-text">{log.tech}</span> on{' '}
+          <Moment format="YYYY/MM/DD, h:mm:ss a">{log.date}</Moment>
         </span>
-        <a href='#!' className='secondary-content' onClick={onDelete}>
-          <i className='material-icons grey-text'>delete</i>
+        <a href="#!" className="secondary-content" onClick={onDelete}>
+          <i className="material-icons grey-text">delete</i>
         </a>
       </div>
     </li>
@@ -41,7 +41,7 @@ const LogItem = ({ log, deleteLog, setCurrent }) => {
 LogItem.propTypes = {
   log: PropTypes.object.isRequired,
   deleteLog: PropTypes.object.isRequired,
-  setCurrent: PropTypes.object.isRequired
+  setCurrent: PropTypes.func.isRequired
 };
 
 export default connect(
